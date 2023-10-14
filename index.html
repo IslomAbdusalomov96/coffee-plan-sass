@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="visually-hidden">Coffeeroasters</h1>
+            <a class="header__logo" href="#">
+                <img class="header__img" src="./images/plan-logo.svg" alt="Coffee about logo" width="236" height="26">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">About Us</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Create your plan</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <h2 class="hero__title">Create a plan</h2>
+                <p class="hero__desc">Build a subscription plan that best fits your needs. We offer an assortment of the
+                    best artisan coffees from around the globe delivered fresh to your door.</p>
+            </div>
+        </section>
+        <!-- CHOOSE -->
+        <section class="choose">
+            <div class="container choose__container">
+                <ul class="choose__circles">
+                    <li class="choose__hr">
+                        <hr class="choose__line">
+                    </li>
+                    <li class="choose__circle"></li>
+                    <li class="choose__circle"></li>
+                    <li class="choose__circle"></li>
+                </ul>
+                <ul class="choose__list">
+                    <li class="choose__item">
+                        <h2 class="choose__number">01</h2>
+                        <h3 class="choose__title">Pick your coffee</h3>
+                        <p class="choose__desc">Select from our evolving range of artisan coffees. Our beans are
+                            ethically sourced and we pay fair prices for them. There are new coffees in all profiles
+                            every month for you to try out.</p>
+                    </li>
+                    <li class="choose__item">
+                        <h2 class="choose__number">02</h2>
+                        <h3 class="choose__title">Choose the frequency</h3>
+                        <p class="choose__desc">Customize your order frequency, quantity, even your roast style and
+                            grind type. Pause, skip or cancel your subscription with no commitment through our online
+                            portal.</p>
+                    </li>
+                    <li class="choose__item">
+                        <h2 class="choose__number">03</h2>
+                        <h3 class="choose__title">Receive and enjoy!</h3>
+                        <p class="choose__desc">We ship your package within 48 hours, freshly roasted. Sit back and
+                            enjoy award-winning world-class coffees curated to provide a distinct tasting experience.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- PREPARATION -->
+        <section class="preparation">
+            <div class="container preparation__container">
+                <ul class="preparation__list">
+                    <li class="preparation__item">
+                        <span class="preparation__number">01</span>
+                        <a class="preparation__link" href="#">Preferences</a>
+                    </li>
+                    <li class="preparation__item">
+                        <span class="preparation__number">02</span>
+                        <a class="preparation__link" href="#">Bean Type</a>
+                    </li>
+                    <li class="preparation__item">
+                        <span class="preparation__number">03</span>
+                        <a class="preparation__link" href="#">Quantity</a>
+                    </li>
+                    <li class="preparation__item">
+                        <span class="preparation__number">04</span>
+                        <a class="preparation__link" href="#">Grind Option</a>
+                    </li>
+                    <li class="preparation__item">
+                        <span class="preparation__number">05</span>
+                        <a class="preparation__link" href="#">Deliveries</a>
+                    </li>
+                </ul>
+                <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+                    <h2 class="form__title">How do you drink your coffee?</h2>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="drink"
+                                    value="capsule">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Capsule</h3>
+                                    <p class="form__desc">Compatible with Nespresso systems and similar brewers</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="drink"
+                                    value="filter">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Filter</h3>
+                                    <p class="form__desc">For pour over or drip methods like Aeropress, Chemex, and V60
+                                    </p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="drink"
+                                    value="espresso">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Espresso</h3>
+                                    <p class="form__desc">Dense and finely ground beans for an intense, flavorful
+                                        experience
+                                    </p>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <h2 class="form__title">What type of coffee?</h2>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="type"
+                                    value="single-origin">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Single Origin</h3>
+                                    <p class="form__desc">Distinct, high quality coffee from a specific family-owned farm</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="type"
+                                    value="decaf">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Decaf</h3>
+                                    <p class="form__desc">Just like regular coffee, except the caffeine has been removed</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="type"
+                                    value="blended">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Blended</h3>
+                                    <p class="form__desc">Combination of two or three dark roasted beans of organic coffees</p>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <h2 class="form__title">How much would you like?</h2>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="how_much"
+                                    value="250g">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">250g</h3>
+                                    <p class="form__desc">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="how_much"
+                                    value="500g">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">500g</h3>
+                                    <p class="form__desc">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="how_much"
+                                    value="1000g">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">1000g</h3>
+                                    <p class="form__desc">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <h2 class="form__title">Want us to grind them?</h2>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="grind"
+                                    value="wholebean">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Wholebean</h3>
+                                    <p class="form__desc">Best choice if you cherish the full sensory experience</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="grind"
+                                    value="filter">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Filter</h3>
+                                    <p class="form__desc">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="grind"
+                                    value="cafetiére">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Cafetiére</h3>
+                                    <p class="form__desc"> Course ground beans specially suited for french press coffee</p>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <h2 class="form__title">How often should we deliver?</h2>
+                    <ul class="form__list">
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="deliver"
+                                    value="every-week">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Every week</h3>
+                                    <p class="form__desc">$7.20 per shipment. Includes free first-class shipping.</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="deliver"
+                                    value="every-2-week">
+                                <div class="form__controller form__controller--second">
+                                    <h3 class="form__controller-title">Every 2 weeks</h3>
+                                    <p class="form__desc">$9.60 per shipment. Includes free priority shipping.</p>
+                                </div>
+                            </label>
+                        </li>
+                        <li class="form__item">
+                            <label class="label">
+                                <input class="input visually-hidden" type="radio" name="deliver"
+                                    value="every-month">
+                                <div class="form__controller">
+                                    <h3 class="form__controller-title">Every month</h3>
+                                    <p class="form__desc">$12.00 per shipment. Includes free priority shipping.</p>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="form__summary">
+                        <span class="form__summary-title">Order Summary</span>
+                        <p class="form__summary-desc">“I drink my coffee as <span class="form__summary-desc-span">Filter</span>, with a <span class="form__summary-desc-span">Decaf</span> type of bean. <span class="form__summary-desc-span">250g</span> ground ala <span class="form__summary-desc-span">Cafetiare</span>, sent to me <span class="form__summary-desc-span">Every Week</span>.”</p>
+                    </div>
+                    <div class="form__foot">
+                        <button class="form__btn">Create my plan!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__logo" href="">
+                <img class="footer__logo-img" src="./images/plan-footer-logo.png" alt="Coffee footer logo image" width="236" height="26">
+            </a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">About us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Create your plan</a>
+                </li>
+            </ul>
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

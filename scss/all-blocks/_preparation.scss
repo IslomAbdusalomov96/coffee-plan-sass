@@ -1,0 +1,137 @@
+.preparation {
+    padding-bottom: 168px;
+    &__container {
+        max-width: 1120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 255px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid $link-color;
+        opacity: 0.6;
+    }
+    &__item + &__item {
+        margin-top: 24px;
+    }
+    &__item:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    &__item:active {
+        opacity: 1;
+    }
+    &__item:last-child {
+        padding: 0;
+        border: none;
+    }
+    &__number {
+        color: $link-color;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__link {
+        margin-left: 26px;
+        color: $text-color;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__item:first-child &__link {
+        margin-left: 29px;
+    }
+    &__item:nth-child(2) &__link {
+        margin-left: 25px;
+    }
+    &__item:nth-child(4) &__link {
+        margin-left: 24px;
+    }
+}
+.form {
+    &__title {
+        margin-bottom: 56px;
+        color: $link-color;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    &__list {
+        display: flex;
+    }
+    &__list {
+        margin-bottom: 88px;
+    }
+    &__item {
+        width: 228px;
+        border-radius: 8px;
+        background-color: $form-controller-color;
+    }
+    &__item + &__item {
+        margin-left: 23px;
+    }
+    &__item:hover {
+        cursor: pointer;
+        background-color: $number-hover-color;
+    }
+    &__controller {
+        padding: 32px 28px 84px;
+        border-radius: 8px;
+    }
+    &__controller--second {
+        padding: 32px 25px 84px 28px;
+    }
+    .input:checked + &__controller {
+        background-color: $box-color;
+    }
+    .input:checked + &__controller &__controller-title {
+        color: $summary-order-text-color;
+    }
+    .input:checked + &__controller &__desc {
+        color: $main-color;
+    }
+    &__controller-title {
+        margin-bottom: 24px;
+        color: $text-color;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__desc {
+        color: $text-color;
+        font-family: 'Barlow';
+        line-height: 26px;
+    }
+    &__summary {
+        margin-bottom: 40px;
+        padding: 27px 64px;
+        border-radius: 10px;
+        background-color: $summary-footer-color;
+    }
+    &__summary-title {
+        margin-bottom: 8px;
+        color: $summary-order-text-color;
+        font-family: 'Barlow';
+        line-height: 26px;
+        text-transform: uppercase;
+        opacity: 0.5037;
+    }
+    &__summary-desc {
+        width: 602px;
+        color: $summary-order-text-color;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    &__summary-desc-span {
+        color: $box-color;
+    }
+    &__foot {
+        text-align: end;
+    }
+    &__btn {
+        padding: 15px 31px 16px;
+        border: none;
+        border-radius: 6px;
+        background-color: $btn-color;
+        color: $main-color;
+        font-size: 18px;
+        line-height: 25px;
+        cursor: pointer;
+    }
+}
